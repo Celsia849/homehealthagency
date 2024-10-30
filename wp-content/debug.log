@@ -1,0 +1,248 @@
+[25-Oct-2024 10:13:03 UTC] PHP Parse error:  Unmatched '}' in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\admin\admin.php on line 44
+[25-Oct-2024 10:13:04 UTC] PHP Parse error:  Unmatched '}' in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\admin\admin.php on line 44
+[25-Oct-2024 10:27:42 UTC] Failed to delete image with ID: 15
+[25-Oct-2024 10:29:56 UTC] Failed to delete image with ID: 16
+[25-Oct-2024 10:30:09 UTC] Failed to delete image with ID: 17
+[25-Oct-2024 10:32:56 UTC] Failed to delete image with ID: 18
+[29-Oct-2024 05:16:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "render_admin_page" not found or invalid function name in D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 D:\laragon\www\homehealthagency\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#3 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php on line 324
+[29-Oct-2024 05:16:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::get_sliders() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:175
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::settings_page('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin.php(259): do_action('toplevel_page_s...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 175
+[29-Oct-2024 05:29:48 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in D:\laragon\www\homehealthagency\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2066
+[29-Oct-2024 05:33:27 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in D:\laragon\www\homehealthagency\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2066
+[29-Oct-2024 06:26:56 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:26:56 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:26:56 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:26:56 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:26:56 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:26:56 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:57 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:57 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:57 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:57 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:57 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:28:57 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 178
+[29-Oct-2024 06:30:53 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:30:53 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:30:53 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:30:53 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:30:53 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:30:53 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:06 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:06 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:06 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:06 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:06 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:06 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:06 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:16 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:16 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:16 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:16 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:16 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:16 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:33:16 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 162
+[29-Oct-2024 06:35:47 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 191
+[29-Oct-2024 06:35:47 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 191
+[29-Oct-2024 06:35:47 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 191
+[29-Oct-2024 06:35:47 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 191
+[29-Oct-2024 06:35:47 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 191
+[29-Oct-2024 06:35:47 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 191
+[29-Oct-2024 06:35:47 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 191
+[29-Oct-2024 06:35:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::delete_slider() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:132
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_delete_slider('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_dele...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 132
+[29-Oct-2024 06:39:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::delete_slider() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:132
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_delete_slider('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_dele...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 132
+[29-Oct-2024 10:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::delete_slider() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:132
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_delete_slider('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_dele...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 132
+[29-Oct-2024 10:23:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:48 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::delete_slider() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:132
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_delete_slider('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_dele...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 132
+[29-Oct-2024 10:23:55 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:55 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:55 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:55 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:55 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:55 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:23:55 UTC] PHP Warning:  Undefined array key "shortcode" in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 195
+[29-Oct-2024 10:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::delete_slider() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:132
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_delete_slider('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_dele...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 132
+[29-Oct-2024 12:02:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::add_image() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:74
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_image_upload('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_save...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 74
+[29-Oct-2024 12:03:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::add_image() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:74
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_image_upload('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_save...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 74
+[29-Oct-2024 12:06:18 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:06:20 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:06:22 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:06:23 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:06:24 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:06:24 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:45:18 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:45:18 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 4
+[29-Oct-2024 12:49:03 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 5
+[29-Oct-2024 12:49:03 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 5
+[29-Oct-2024 12:50:52 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 5
+[29-Oct-2024 12:50:52 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 5
+[29-Oct-2024 12:50:53 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 5
+[29-Oct-2024 12:50:53 UTC] PHP Fatal error:  Cannot declare class SliderPlugin\Slider, because the name is already in use in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-slider.php on line 5
+[29-Oct-2024 12:53:55 UTC] PHP Warning:  require_once(D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php): Failed to open stream: No such file or directory in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:53:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:17
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php(20): require_once()
+#1 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\homehealthagency\wp-admin\admin.php(34): require_once('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:53:55 UTC] PHP Warning:  require_once(D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php): Failed to open stream: No such file or directory in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:53:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:17
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php(20): require_once()
+#1 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\homehealthagency\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\homehealthagency\index.php(17): require('D:\\laragon\\www\\...')
+#6 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:53:56 UTC] PHP Warning:  require_once(D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php): Failed to open stream: No such file or directory in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:53:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:17
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php(20): require_once()
+#1 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\homehealthagency\wp-admin\admin.php(34): require_once('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:53:56 UTC] PHP Warning:  require_once(D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php): Failed to open stream: No such file or directory in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:53:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes/includes/class-slider.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:17
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php(20): require_once()
+#1 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\homehealthagency\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\homehealthagency\index.php(17): require('D:\\laragon\\www\\...')
+#6 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 17
+[29-Oct-2024 12:57:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Settings::init() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php:25
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once()
+#1 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-admin\admin.php(34): require_once('D:\\laragon\\www\\...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php on line 25
+[29-Oct-2024 12:57:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Settings::init() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php:25
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once()
+#1 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\homehealthagency\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php on line 25
+[29-Oct-2024 12:57:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Settings::init() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php:25
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once()
+#1 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-admin\admin.php(34): require_once('D:\\laragon\\www\\...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php on line 25
+[29-Oct-2024 12:57:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Settings::init() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php:25
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-settings.php(522): include_once()
+#1 D:\laragon\www\homehealthagency\wp-config.php(99): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\homehealthagency\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\homehealthagency\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\homehealthagency\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\slider-plugin.php on line 25
+[29-Oct-2024 13:09:21 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in D:\laragon\www\homehealthagency\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2066
+[29-Oct-2024 13:18:22 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in D:\laragon\www\homehealthagency\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2066
+[29-Oct-2024 13:23:53 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in D:\laragon\www\homehealthagency\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2066
+[29-Oct-2024 13:27:07 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in D:\laragon\www\homehealthagency\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2066
+[29-Oct-2024 14:15:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::add_slider() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:32
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_create_slider('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_crea...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 32
+[29-Oct-2024 14:15:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method SliderPlugin\Slider::add_slider() in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php:32
+Stack trace:
+#0 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(324): SliderPlugin\Settings::handle_create_slider('')
+#1 D:\laragon\www\homehealthagency\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 D:\laragon\www\homehealthagency\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\homehealthagency\wp-admin\admin-post.php(85): do_action('admin_post_crea...')
+#4 {main}
+  thrown in D:\laragon\www\homehealthagency\wp-content\plugins\slider-plugin\includes\class-settings.php on line 32

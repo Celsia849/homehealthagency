@@ -1,0 +1,26 @@
+.wrap {
+    margin: 20px;
+}
+
+.wrap h1 {
+    font-size: 24px;
+}
+
+.wrap input[type="file"] {
+    margin: 10px 0;
+}
+
+.wrap ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrap li {
+    margin: 10px 0;
+}
+
+.delete-image {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}

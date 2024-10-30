@@ -1,0 +1,50 @@
+/* slider-style.css */
+
+.slider-container {
+    position: relative;
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflow */
+}
+
+.slider-item {
+    display: none; /* Hide items initially */
+}
+
+.slider-item img {
+    width: 100%; /* Image takes full width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.slider-navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent clicks on the arrows container */
+}
+
+.slider-navigation img {
+    cursor: pointer; /* Pointer cursor */
+    pointer-events: auto; /* Allow clicks on the arrows */
+}
+
+.slider-dots {
+    text-align: center; /* Center the dots */
+    margin-top: 10px; /* Space between slider and dots */
+}
+
+.dot {
+    display: inline-block;
+    width: 10px; /* Size of the dot */
+    height: 10px; /* Size of the dot */
+    border-radius: 50%; /* Make it round */
+    background-color: gray; /* Default color */
+    margin: 0 5px; /* Space between dots */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.dot.active {
+    background-color: black; /* Color of the active dot */
+}
